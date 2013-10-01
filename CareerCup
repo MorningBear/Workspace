@@ -1,0 +1,16 @@
+Approach I:   Examplify
+Approach II:  Pattern Matching
+Approach III: Simplify and Generalize
+Approach IV:  Base case and Build
+Approach V:   Data Structure Brainstorm
+
+Linked lists: not do very well with accessing and sorting numbers
+
+Array: 
+
+Binary tree: do fairly well with ordering. If the binary search tree is perfectly balanced, the top might be the median.
+			 But, be careful - if there's an even number of elements, the median is actually the average of the middle two elements.
+			 The middle two elements can't both be at the top.
+
+Heap: do good at basic ordering and keeping track of max and mins. If you had two heaps, you could keep track of the bigger half and the smaller half of the elements.
+	  The bigger half is kept in a min heap, such that the smallest element in the bigger half is at the root.			 
