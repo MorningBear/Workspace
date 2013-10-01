@@ -1,0 +1,17 @@
+1. create a repository on github
+
+2. create a directory
+
+3. create a file
+
+4. git add .
+
+5. git commit -m "something"
+
+6. git push --setup-upstream origin test0
+   or merge to local master
+
+7. check github, merge the branch, pull the branch to master
+   or push the local master to remote master
+
+8. back to local, pull the code from remote/origin to local master, then delete the branch
