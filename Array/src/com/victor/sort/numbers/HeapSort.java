@@ -48,8 +48,7 @@ public class HeapSort extends Sort {
 	}
 	
 	public static void main(String[] args) {
-//		int[] array = RandomNumbers.generateRandomNumbers(1, 100, 10);
-		int[] array = {74, 48, 45, 40, 36, 13, 19, 86, 37, 61};
+		int[] array = RandomNumbers.generateRandomNumbers(1, 1000, 100);
 		if (isSorted(array)) {
 			System.out.println("The array is already sorted!");
 		} else {
