@@ -1,0 +1,25 @@
+Sort algorithm summary:
+- Selection sort
+- Insertion sort
+- Bubble sort
+- Shell sort
+- Merge sort
+- Heap sort
+- Quick sort
+- Quick3 sort
+
+Selection sort: basic sort algorithm, easy to implement, almost no use
+
+Insertion sort: best use for nearly sorted array
+
+Bubble sort:    kind of like Insertion sort, good for nearly sorted array
+
+Shell sort:     good for large size array, can be considered as a complimentary for Insertion sort
+
+Merge sort:     use for stable
+
+Heap sort:      simple to implement, but not stable, typically used for academic use
+
+Quick sort:     excellent for general-purpose sort
+
+Quick3 sort:    highly adaptive in the very common of sorting with few unique keys
