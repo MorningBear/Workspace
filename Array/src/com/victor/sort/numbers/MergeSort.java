@@ -32,10 +32,15 @@ public class MergeSort {
 		}
 		
 		for (int i = lo; i <= hi; i++) {
-			if 		(left > mid) 						arr[i] = temp_arr[right++];
-			else if (right > hi) 						arr[i] = temp_arr[left++];
-			else if (temp_arr[right] < temp_arr[left])  arr[i] = temp_arr[right++];
-			else										arr[i] = temp_arr[left++];
+			if (left > mid) {
+				arr[i] = temp_arr[right++];
+			} else if (right > hi) {
+				arr[i] = temp_arr[left++];
+			} else if (temp_arr[right] < temp_arr[left]) {
+				arr[i] = temp_arr[right++];
+			} else {
+				arr[i] = temp_arr[left++];
+			}
 		}
 	}
 	
