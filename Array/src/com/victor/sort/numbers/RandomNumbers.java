@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomNumbers extends Sort {
 
 	public static int[] generateRandomNumbers(int rangeMin, int rangeMax, int size) {
-		assert ( rangeMin < rangeMax ): "rangeMin cannot be greater than rangeMax";
+		if (rangeMin >= rangeMax) throw new IllegalArgumentException("rangeMin cannot be greater than or equal to rangeMax");
 		
 		int[] randomArray = new int[size];
 		
@@ -19,7 +19,10 @@ public class RandomNumbers extends Sort {
 	}
 	
 	public static void main(String[] args) {
-		show(generateRandomNumbers(1, 100, 10));
+//		show(generateRandomNumbers(1, 1, 10));
+//		show(generateRandomNumbers(1, 0, 10));
+//		show(generateRandomNumbers(1, 100, 10));
+		show(generateRandomNumbers(-20, -1, 10));
 	}
 	
 }
